@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container-fluid d-flex" style="margin:0;padding:0;">
+    <div class="sidebar	d-none d-lg-block col-lg-3">
+      <div class="sidebar-brand">GeekyAnts</div>
+      <div>
+        <ul class="sidebar-list">
+          <li>
+            <div class="sidebar-item active">
+              <div class="sidebar-item-name">
+                <i class="fa fa-solid fa-house-user"></i>
+                Dashboard
+              </div>
+              <div class="sidebar-badge" style="background-color:#626ED4">
+                2
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sidebar-item">
+              <div class="sidebar-item-name">
+                <i class="fa fa-solid fa-calendar-day"></i>
+                Calendar
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sidebar-item">
+              <div class="sidebar-item-name">
+                <i class="fa fa-solid fa-envelope"></i>
+                Email
+              </div>
+              <div>
+                <i class="fa fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sidebar-item">
+              <div class="sidebar-item-name">
+                <i class="fa fa-solid fa-box"></i>
+                UI Elements
+              </div>
+              <div>
+                <i class="fa fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sidebar-item">
+              <div class="sidebar-item-name">
+                <i class="fa fa-solid fa-book"></i>
+                Forms
+              </div>
+              <div class="sidebar-badge" style="background-color:#2AA39A ">
+                9
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sidebar-item">
+              <div class="sidebar-item-name">
+                <i class="fas fa-chart-pie "></i>
+                Charts
+              </div>
+              <div>
+                <i class="fa fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sidebar-item">
+              <div class="sidebar-item-name">
+                <i class="fa fa-solid fa-table-cells"></i>
+                Tables
+              </div>
+              <div>
+                <i class="fa fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sidebar-item">
+              <div class="sidebar-item-name">
+                <i class="fa fa-regular fa-face-grin"></i>
+                Icons
+              </div>
+              <div>
+                <i class="fa fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="sidebar-item">
+              <div class="sidebar-item-name">
+                <i class="fa fa-solid fa-map"></i>
+                Maps
+              </div>
+              <div class="sidebar-badge" style="background-color:#EC4561">
+                2
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-fluid col-sm-12 col-lg-9" style="margin:0;padding:0;">
+      <div class="nav navbar navbar-expand-md">
+        <div class="navleft">
+          <button class="leftbtn1"><i class="fas fa-bars"></i></button>
+          <button class="leftbtn2">Create<i class="fas fa-caret-down"></i></button>
+        </div>
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <div class="searchbar">
+                  <input type="search" placeholder="Search.."/>
+                  <button class="srcbtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </li>
+              <li class="nav-item">
+                <button class="countrybtn">
+                  🇺🇸 English <i class="fa fa-solid fa-angle-down"></i>
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="countrybtn"
+                style="margin-top: 0.1em;
+                font-size:1.5em;">
+                   <i class="fas fa-expand"></i>
+                </button>
+              </li>
+              <li class="nav-item">
+                <div class = "notif-bell">
+                  <i class="far fa-bell notif"></i>
+                  <div class="notif-badge" style="background-color:#EC4561">
+                    2
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <img src="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg" alt="face1" class = "navpic">
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+      <div class="dashboard">
+        <div class = "dash-header">
+          <div class="dash-header-left">
+            <h4 style="color: #535466;">Dashboard</h4>
+            <p style="color: #a4a5b3;">Welcome to Veltrix Dashboard</p>
+          </div>
+          <div class="dash-header-right">
+            <i class="fa fas fa-gear"></i>Settings
+          </div>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <div class="card-item">
+                <div class="card-head">
+                  <div class="card-img-holder">
+                    <img src="pictures/post-it.png" alt="phone" class="card-img">
+                  </div>
+                  <div class="card-head-text">
+                    <div style="font-size:1em;font-weight:500;
+                    padding-bottom:0.2em;">REVENUE</div>
+                    <div style="font-size:1.5em;
+                    height: 1.6em;
+                    color:white">52,368  <i class="fa-solid fa-arrow-down" style="color:#EC4561"></i></div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div>Since last month</div>
+                  <div><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                <div class="ribbon" style="background:#EC4561">
+                  - 28%
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-item">
+                <div class="card-head">
+                  <div class="card-img-holder">
+                    <img src="pictures/ink-pen.png" alt="phone" class="card-img">
+                  </div>
+                  <div class="card-head-text">
+                    <div style="font-size:1em;font-weight:500;
+                    padding-bottom:0.2em;">AVERAGE PRICE</div>
+                    <div style="font-size:1.5em;
+                    height: 1.6em;
+                    color:white">15.8  <i class="fa-solid fa-arrow-up"></i></div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div>Since last month</div>
+                  <div><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                <div class="ribbon" style="background:#38A5F8;">
+                    00%
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card-item">
+                <div class="card-head">
+                  <div class="card-img-holder">
+                    <img src="pictures/briefcase.png" alt="phone" class="card-img">
+                  </div>
+                  <div class="card-head-text">
+                    <div style="font-size:1em;font-weight:500;
+                    padding-bottom:0.2em;">PRODUCT SOLD</div>
+                    <div style="font-size:1.5em;
+                    height: 1.6em;
+                    color:white">2,436  <i class="fa-solid fa-arrow-up"></i></div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div>Since last month</div>
+                  <div><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                <div class="ribbon" style="background:#F8B425;">
+                + 84%
+              </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <div class="card-item left">
+                <div class="card-head">
+                  <div class="card-img-holder">
+                    <img src="pictures/reload.png" alt="phone" class="card-img">
+                  </div>
+                  <div class="card-head-text">
+                    <div style="font-size:1em;font-weight:500;
+                    padding-bottom:0.2em;">ORDERS</div>
+                    <div style="font-size:1.5em;
+                    height: 1.6em;
+                    color:white">1,685  <i class="fa-solid fa-arrow-up"></i></div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <div>Since last month</div>
+                  <div><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+                <div class="ribbon">
+                  + 12%
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="row">
+          <div class="table1 col-sm-12 col-lg-7">
+            <h4 class="final-head">Latest Transaction</h4>
+            <table>
+              <thead>
+                <tr>
+                  <th>(#)Id</th>
+                  <th>Name</th>
+                  <th>Date</th>
+                  <th>Amount</th>
+                  <th colspan="2">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>#14256</td>
+                  <td><div
+                    style="display:flex;
+                    align-items: center;">
+                    <img src="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg" alt="face1" class = "navpic table-pic">
+                    Phillip Smead
+                  </div></td>
+                  <td>15/01/2018</td>
+                  <td>$94</td>
+                  <td><span class="status success">Delivered</span></td>
+                  <td><button class="edit">Edit</button></td>
+                </tr>
+                <tr>
+                  <td>#14276</td>
+                  <td><div
+                    style="display:flex;
+                    align-items: center;">
+                    <img src="https://static.generated.photos/vue-static/face-generator/landing/wall/14.jpg" alt="face1" class = "navpic table-pic">
+                    Michael Scott
+                  </div></td>
+                  <td>12/01/2019</td>
+                  <td>$194</td>
+                  <td><span class="status warning">Pending</span></td>
+                  <td><button class="edit">Edit</button></td>
+                </tr>
+                <tr>
+                  <td>#23256</td>
+                  <td><div
+                    style="display:flex;
+                    align-items: center;">
+                    <img src="https://e7.pngegg.com/pngimages/52/333/png-clipart-woman-with-black-hair-taking-selfie-face-brown-hair-front-people-faces.png" alt="face1" class = "navpic table-pic">
+                    Hermoine Granger
+                  </div></td>
+                  <td>13/01/2019</td>
+                  <td>$210</td>
+                  <td><span class="status success">Delivered</span></td>
+                  <td><button class="edit">Edit</button></td>
+                </tr>
+                <tr>
+                  <td>#14250</td>
+                  <td><div
+                    style="display:flex;
+                    align-items: center;">
+                    <img src="https://mymodernmet.com/wp/wp-content/uploads/2019/09/100k-ai-faces-7.jpg" alt="face1" class = "navpic table-pic">
+                    Regina King
+                  </div></td>
+                  <td>14/01/2019</td>
+                  <td>$201</td>
+                  <td><span class="status danger">Cancel</span></td>
+                  <td><button class="edit">Edit</button></td>
+                </tr>
+                <tr>
+                  <td>#64256</td>
+                  <td><div
+                    style="display:flex;
+                    align-items: center;">
+                    <img src="https://www.pinkvilla.com/imageresize/beauty_expert_reveals_makeup_tips_for_people_with_round_shaped_face_main.jpg?width=752&format=webp&t=pvorg" alt="face1" class = "navpic table-pic">
+                    Tyrion Lannister
+                  </div></td>
+                  <td>15/01/2019</td>
+                  <td>$110</td>
+                  <td><span class="status success">Delivered</span></td>
+                  <td><button class="edit">Edit</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="chat col-sm-12 col-md-5">
+            <h4 class="final-head">Chat</h4>
+            <div class="chat-box">
+              <div class="left-message">
+                <div class="chat-pic-container">
+                  <img src="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg" alt="left-msg" class="chat-pic">
+                  <span style="font-size:0.9em;
+                  margin-left: 0.3em">10:00</span> 
+                </div>
+                <div class="left-msg-body">
+                  <h4>John Doe</h4>
+                  <p>Hello!</p>
+                </div>
+              </div>
+              <div class="right-message">
+                <div class="right-msg-body">
+                  <h4>Bruce Wayne</h4>
+                  <p>Hey! What's up? Stop riling up Gotham, Man!!</p>
+                </div>
+                <div class="chat-pic-container">
+                  <img src="https://static.generated.photos/vue-static/face-generator/landing/wall/14.jpg" alt="right-msg" class="chat-pic">
+                  <span style="font-size:0.9em;
+                  margin-left: 0.3em">10:01</span> 
+                </div>
+              </div>
+              <div class="left-message">
+                <div class="chat-pic-container">
+                  <img src="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg" alt="left-msg" class="chat-pic">
+                  <span style="font-size:0.9em;
+                  margin-left: 0.3em">10:04</span> 
+                </div>
+                <div class="left-msg-body">
+                  <h4>John Doe</h4>
+                  <p>Oh! Bruce!!! How can I do that man!? :3</p>
+                </div>
+              </div>
+              <div class="right-message">
+                <div class="right-msg-body">
+                  <h4>Bruce Wayne</h4>
+                  <p>If you don't stop now, it won't be good for you!</p>
+                </div>
+                <div class="chat-pic-container">
+                  <img src="https://static.generated.photos/vue-static/face-generator/landing/wall/14.jpg" alt="right-msg" class="chat-pic">
+                  <span style="font-size:0.9em;
+                  margin-left: 0.3em">10:05</span> 
+                </div>
+              </div>
+              <div class="right-message">
+                <div class="right-msg-body">
+                  <h4>Bruce Wayne</h4>
+                  <p>Me and Commissioner Gordon are on our way!</p>
+                </div>
+                <div class="chat-pic-container">
+                  <img src="https://static.generated.photos/vue-static/face-generator/landing/wall/14.jpg" alt="right-msg" class="chat-pic">
+                  <span style="font-size:0.9em;
+                  margin-left: 0.3em">10:05</span> 
+                </div>
+              </div>
+              <div class="left-message">
+                <div class="chat-pic-container">
+                  <img src="https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg" alt="left-msg" class="chat-pic">
+                  <span style="font-size:0.9em;
+                  margin-left: 0.3em">10:10</span> 
+                </div>
+                <div class="left-msg-body">
+                  <h4>John Doe</h4>
+                  <p>MWAHAHAHAAHAA!! Stop me!</p>
+                </div>
+              </div>
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your text">
+              <button>Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
