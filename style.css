@@ -156,6 +156,39 @@
   border-radius: 3px;
 }
 
+.left{
+  margin-right: 0.8em;
+}
+
+.center{
+  margin-inline: 0.8em;
+}
+
+.right{
+  margin-left: 0.8em;
+}
+
+.cards1{
+  padding: 0em 0em 2em 0em;
+  display: flex;
+  height: 9em;
+}
+
+.fa-caret-down{
+  padding-left:0.5em;
+}
+
+.card-item1{
+  width: 15em;
+  height: 10em;
+  background-color: #626ED4;
+  border-radius: 5px;
+  flex: 1;
+  padding: 1em;
+  color: #b8bce3;
+  position: relative;
+}
+
 .card-item{
   width: 16em;
   height: 9em;
